@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.posts ul {
+    list-style: none;
+}
+
+.posts a {
+    text-decoration: none;
+    color: orange;
+}
+
+.posts a::after {
+    content: " ...e assim se foi";
+}
+
+footer span {
+    font-style: italic;
+}
